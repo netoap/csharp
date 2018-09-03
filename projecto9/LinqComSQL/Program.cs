@@ -89,7 +89,6 @@ namespace LinqComSQL
                 }
                 Console.WriteLine();
             }
-        }
-       
+        } 
     }
 }
