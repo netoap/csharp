@@ -85,9 +85,6 @@ namespace LinqComLambda
                 }
                 Console.WriteLine();
             }
-            
-
-
         }
     }
 }

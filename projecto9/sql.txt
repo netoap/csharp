@@ -1,0 +1,20 @@
+Quatro operações básicas da álgebra relacional e da linguagem SQL
+
+Operação “Junção”
+SELECT * FROM product, category
+WHERE product.category_id = category.id
+
+SELECT *FROM product
+INNER JOIN category cat 
+	ON product.category_id = cat.id
+
+Operação “Restrição”
+SELECT * FROM product
+INNER JOIN category cat ON product.category_id = cat.Id
+WHERE cat.name = ‘Computadores’
+
+Operação “Projeção”
+SELECT product.*, category.name
+FROM product
+INNER JOIN category cat ON product.category_id = cat.Id
+WHERE category.Name = ‘Computers’
